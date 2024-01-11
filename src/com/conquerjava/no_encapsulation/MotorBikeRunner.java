@@ -8,7 +8,7 @@ public class MotorBikeRunner {
         ducati.start();
         honda.start();
 
-        ducati.speed = 20;
-        honda.speed = 0;
+        ducati.speed = 100;
+        honda.speed = 80;
     }
 }

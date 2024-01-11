@@ -1,7 +1,15 @@
-package com.conquerjava.encapsulation;
+package com.conquerjava.constructors;
 
 public class MotorBike {
     private int speed; // member variable
+
+    MotorBike() {
+        this(5); // this invokes the constructor below
+    }
+
+    MotorBike(int speed) {
+        this.speed =speed;
+    }
 
     //behaviour
     int getSpeed() {
@@ -24,3 +32,4 @@ public class MotorBike {
         System.out.println("Bike started");
     }
 }
+

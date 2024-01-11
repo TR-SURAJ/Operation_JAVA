@@ -1,8 +1,12 @@
-package com.conquerjava.encapsulation;
+package com.conquerjava.constructors;
 
 public class Book {
 
     private int noOFCopies;
+
+    public Book(int noOFCopies) {
+        this.noOFCopies = noOFCopies;
+    }
 
     public void setNoOfCopies(int noOfCopies){
         if(noOfCopies > 0)
